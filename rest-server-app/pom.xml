@@ -46,6 +46,16 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<profiles>
+    <profile>
+        <id>sonar</id>
+        <properties>
+        <sonar.host.url>
+            http://18.222.217.103:9000
+        </sonar.host.url>
+        </properties>
+    </profile>
+</profiles>
 
 	<build>
 		<plugins>
